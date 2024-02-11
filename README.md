@@ -1,12 +1,12 @@
-# Norm Consensus
+## Norm Consensus
 
 This code can be used to replicate the experiments in the AAMAS 2024 paper "Multi-user norm consensus". The code tests the algorithm presented in the paper to find consensus among multiple users' preferences. It will generate norm consensus problems with different parameters and save the time it takes to solve them. These times can then be used to calculate the numbers and draw the figures in the paper. Depending on the computer used to run the tests, the results will differ, for the paper we used a standard 2018 13'' MacBook Pro (Intel Core i5-8259U processor, 8Gb of RAM, running Mac OS 12.6.). 
 
-## Contents
+### Contents
 
 The "doc" directory in this repository contains supplementary material for the AAMAS 2024 paper, in particular, the full proofs for the lemmas and theorems presented. The TestData directory contains the results for our run of the tests.
 
-## Requirements:
+### Requirements:
 
 The code has to be executed in Python3, it requires numpy and cplex to be installed. Cplex is available for academics on the IBM website.
 
@@ -14,7 +14,7 @@ The code saves the last LP for each generated problem (to save space it deletes 
 
 This code was executed in Mac OS 12.6, since it navigates the folders where it is executed it is possible that it needs to be udapted for other operating systems.
 
-## How to use:
+### How to use:
 
 Open a terminal in the directory where main.py is, run "python3 main.py". 
 The code will perform all experiments as described in the paper automatically and does not need any other input. 
