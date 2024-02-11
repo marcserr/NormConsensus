@@ -1,0 +1,12 @@
+Minimize
+1n35
+Subject to
+n35 >= 1
+n35 >= 1
+n35 >= 1
+n35 >= 1
+n35 >= 1
+n35 <=0
+Binaries
+n35
+End
